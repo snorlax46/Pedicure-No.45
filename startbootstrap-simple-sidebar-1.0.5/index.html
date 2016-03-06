@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Als het om uw voeten gaat</title>
+
+    <link rel="icon" href="images/pedicurelogo.gif">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#" class="welkom"></a>
+                </li>
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-home"></span> De praktijk</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-euro"></span> Prijslijsten
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Prijslijst manicure</a></li>
+                      <li><a href="#">Prijslijst pedicure</a></li>
+                      <li><a href="#">Prijslijst overig</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-piggy-bank"></span> Aanbiedingen</a>
+                </li>
+
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Producten</a>
+                </li>
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-heart"></span> Behandelingen
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#" alink="#d60093">Benen harsen</a></li>
+                      <li><a href="#">Massage</a></li>
+                      <li><a href="#">NIEUW! Hammam</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-wrench"></span> Voetklachten</a>
+                </li>
+
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-bell"></span> Nieuws</a>
+                </li>
+
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-pencil"></span> Nailart</a>
+                </li>
+
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-tint"></span> Schoendesinfectie</a>
+                </li>
+
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-link"></span> Links</a>
+                </li>
+
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <img src="images/pedicurelogo.gif" class="logo" alt="Logo" align="right">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Pedicurestudio No.45</h1>
+                        <div class="stripe"></div>
+                        <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
+                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
