@@ -1,21 +1,41 @@
-#sidebar-wrapper {
-background-color: #dbf20c;
-}
-
-h1 {
-font-family: ;
-}
-
-.welkom {
-font-size: 25px;
+.title {
+font-family: 'Abril Fatface';
+font-size: 60px;
 }
 
 .stripe {
 background-color: #dbf20c;
 height: 5px;
-margin: 2px;
+margin-top: 2px;
+margin-bottom: 15px;
 }
 
-.dropdown-menu {
+.logo {
+position: relative;
+margin-top: -15px;
+}
+
+.list-group{
+margin-top: 100px;
+}
+
+.list-group-item {
+background-color: #dbf20c;
+font-size: 16px;
+}
+
+.small {
 background-color: #dbdbd5;
+}
+
+.carousel-indicators li{
+background-color: #dbdbd5;
+}
+
+.carousel-indicators .active {
+background-color: #dbf20c;
+}
+
+.carouselimg {
+margin: 0 auto;
 }
