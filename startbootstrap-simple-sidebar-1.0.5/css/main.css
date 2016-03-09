@@ -39,3 +39,23 @@ background-color: #dbf20c;
 .carouselimg {
 margin: 0 auto;
 }
+
+h1 a:link {
+text-decoration: none;
+color: black;
+}
+
+h1 a:visited {
+text-decoration: none;
+color: black;
+}
+
+h1 a:hover; {
+text-decoration: none;
+color: black;
+}
+
+h1 a:active {
+text-decoration: none;
+color: black;
+}
