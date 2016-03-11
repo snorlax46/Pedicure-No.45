@@ -20,24 +20,29 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <script src="js/title.js"></script>
-        <div class="row">
-            <div class="col-md-3">
-                <script src="js/menu.js"></script>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Pedicure No.45</a>
             </div>
-            <div class="col-md-9">
-                <div class="stripe"></div>
-
-                <p class="infotext">Pedicurestudio No 45 is een modern voetverzorgingbedrijf waar u en uw voeten zorgvuldig en met aandacht behandeld worden.<br>
-                Heeft u last van uw voeten en wilt u vakkundig van uw voetklachten verlost worden?
-                Of wilt u zichzelf verwennen met bijvoorbeeld een ontspannende (Hot Stone) massage van voet en onderbeen, een cosmetische voetbehandeling, manicure of nailart? <br>
-                Pedicurestudio No 45 is tevens  gespecialiseerd in nagelbeugeltechnieken, orthesiologie,  nagelreparatie—en prothesetechnieken.<br>
-                U bent van harte welkom om uw voeten vakkundig te laten verzorgen.
-                Voor welke behandeling u ook kiest, ik neem graag de tijd voor u.<br>
-                Via deze site kunt u zich informeren over alle mogelijkheden. Klik op roze onderstreepte delen voor meer details. Heeft u nog vragen?<br>
-                Ik beantwoord ze graag. U kunt mij telefonisch bereiken tijdens de openingstijden of een mailtje sturen via  de contactpagina.</p>
-
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1<span class="caret">
+                    </span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Page 1-1</a></li>
+                      <li><a href="#">Page 1-2</a></li>
+                      <li><a href="#">Page 1-3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+            </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Carousel indicators -->
                     <ol class="carousel-indicators">
@@ -62,13 +67,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
-    </div>
-        <!-- /#sidebar-wrapper -->
-        <!-- /#page-content-wrapper -->
-
-    <!-- /#wrapper -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
