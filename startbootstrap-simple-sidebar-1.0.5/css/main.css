@@ -1,6 +1,7 @@
 .title {
-font-family: 'Abril Fatface';
 font-size: 60px;
+text-align: center;
+height: 75px;
 }
 
 .stripe {
@@ -11,13 +12,10 @@ margin-bottom: 15px;
 }
 
 .logo {
-position: relative;
-margin-top: -15px;
+text-align: center;
+margin-top: 10px;
 }
 
-.list-group{
-margin-top: 100px;
-}
 
 .list-group-item {
 background-color: #dbf20c;
@@ -38,6 +36,8 @@ background-color: #dbf20c;
 
 .carouselimg {
 margin: 0 auto;
+height: 600px;
+width: 600px;
 }
 
 h1 a:link {
@@ -58,4 +58,9 @@ color: black;
 h1 a:active {
 text-decoration: none;
 color: black;
+}
+
+.clicked {
+background-color: #a8b818 !important;
+border: white;
 }
