@@ -1,29 +1,5 @@
-.title {
-font-size: 60px;
-text-align: center;
-height: 75px;
-}
-
-.stripe {
-background-color: #dbf20c;
-height: 5px;
-margin-top: 2px;
-margin-bottom: 15px;
-}
-
-.logo {
-text-align: center;
-margin-top: 10px;
-}
-
-
-.list-group-item {
-background-color: #dbf20c;
-font-size: 16px;
-}
-
-.small {
-background-color: #dbdbd5;
+.navbar {
+border-radius: 0;
 }
 
 .carousel-indicators li{
@@ -36,31 +12,42 @@ background-color: #dbf20c;
 
 .carouselimg {
 margin: 0 auto;
-height: 1100px;
-width: 1100px;
 }
 
-h1 a:link {
-text-decoration: none;
-color: black;
+.bubblelist {
+list-style: none;
 }
 
-h1 a:visited {
-text-decoration: none;
-color: black;
+.bubble {
+background-color: #dbdbd5;
+border-radius: 7px;
+border: solid #bfbfbb;
+margin-bottom: 20px;
 }
 
-h1 a:hover; {
-text-decoration: none;
-color: black;
+.bubbleimg {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 12px;
 }
 
-h1 a:active {
-text-decoration: none;
-color: black;
+.bubbletext {
+margin-left: 5px;
 }
 
-.clicked {
-background-color: #a8b818 !important;
-border: white;
+.bubble p a:link {
+color: #dbf20c;
+}
+
+.bubble p a:visited {
+color: #a8b818;
+}
+
+.bubble p a:hover {
+color: #a8b818;
+}
+
+.bubble p a:active {
+color: #a8b818;
 }
