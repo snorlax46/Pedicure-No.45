@@ -2,12 +2,15 @@
 height: 50px;
 width: 50px;
 margin-top: 10px;
+
 }
 
 .navbar {
 border-radius: 0;
 margin-top: -40px;
 font-size: 17px;
+font-family: 'Montserrat';
+margin-bottom: 0px;
 }
 
 .navbar-right li a {
@@ -15,8 +18,8 @@ color: #7D7F80;
 }
 
 .carousel {
-margin-bottom: 10px;
 margin-top: 20px;
+width: 100%;
 }
 
 .carousel-indicators li{
@@ -29,13 +32,28 @@ background-color: #dbf20c;
 
 .carouselimg {
 margin: 0 auto;
+width: 100%;
+}
+
+.carousel-control{
+background-image: none !important;
 }
 
 .text {
-margin-top: 20px;
+margin-left: 50px;
 }
 
-.bubblelist {
+.title {
+font-family: 'Montserrat';
+}
+
+.stripe {
+height: 7px;
+width: 100px;
+background-color: #a8b818;
+}
+
+/*.bubblelist {
 list-style: none;
 }
 
@@ -71,4 +89,4 @@ color: #a8b818;
 
 .bubble p a:active {
 color: #a8b818;
-}
+}*/
