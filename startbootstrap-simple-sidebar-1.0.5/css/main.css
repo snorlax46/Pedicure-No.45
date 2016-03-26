@@ -1,5 +1,22 @@
+.logo {
+height: 50px;
+width: 50px;
+margin-top: 10px;
+}
+
 .navbar {
 border-radius: 0;
+margin-top: -40px;
+font-size: 17px;
+}
+
+.navbar-right li a {
+color: #7D7F80;
+}
+
+.carousel {
+margin-bottom: 10px;
+margin-top: 20px;
 }
 
 .carousel-indicators li{
@@ -12,6 +29,10 @@ background-color: #dbf20c;
 
 .carouselimg {
 margin: 0 auto;
+}
+
+.text {
+margin-top: 20px;
 }
 
 .bubblelist {
