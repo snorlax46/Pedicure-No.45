@@ -2,7 +2,7 @@
 height: 50px;
 width: 50px;
 margin-top: 10px;
-
+margin-bottom: 20px;
 }
 
 .navbar {
@@ -17,6 +17,11 @@ margin-bottom: 0px;
 color: #7D7F80;
 }
 
+.navbar-right li a:hover {
+background-color: #a8b818;
+color: white;
+}
+
 .carousel {
 margin-top: 20px;
 width: 100%;
@@ -27,7 +32,7 @@ background-color: #dbdbd5;
 }
 
 .carousel-indicators .active {
-background-color: #dbf20c;
+background-color: #a8b818;
 }
 
 .carouselimg {
@@ -35,58 +40,41 @@ margin: 0 auto;
 width: 100%;
 }
 
-.carousel-control{
+.carousel-control {
 background-image: none !important;
 }
 
+.glyphicon-chevron-left, .glyphicon-chevron-right {
+color: #a8b818;
+}
+
 .text {
-margin-left: 50px;
+margin-top: 25px;
 }
 
 .title {
 font-family: 'Montserrat';
+margin-top: 50px;
+margin-bottom: -10px;
+border-bottom: #a8b818 3px solid;
 }
 
-.stripe {
+/*.stripe {
 height: 7px;
-width: 100px;
+width: 400px;
 background-color: #a8b818;
-}
+margin-left: 100px;
+}*/
 
-/*.bubblelist {
-list-style: none;
-}
-
-.bubble {
-background-color: #dbdbd5;
-border-radius: 7px;
-border: solid #bfbfbb;
+.homepicture {
+text-align: right;
+height: 300px;
+width: 300px;
+margin-top: 45px;
 margin-bottom: 20px;
 }
 
-.bubbleimg {
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: 12px;
+.bodytext {
+margin-left: 50px;
+margin-right: 50px;
 }
-
-.bubbletext {
-margin-left: 5px;
-}
-
-.bubble p a:link {
-color: #dbf20c;
-}
-
-.bubble p a:visited {
-color: #a8b818;
-}
-
-.bubble p a:hover {
-color: #a8b818;
-}
-
-.bubble p a:active {
-color: #a8b818;
-}*/
